@@ -17,7 +17,7 @@ async def on_startup():
             symbols = [pair.symbol for pair in cutted_pairs]
 
             for symbol in symbols:
-                RedisTools.set_pair(symbol, 0)
+                RedisTools.set_pair(symbol, '0')
 
 
 async def on_loop_startup():
