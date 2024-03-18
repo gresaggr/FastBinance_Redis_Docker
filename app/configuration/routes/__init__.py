@@ -1,4 +1,4 @@
 from app.configuration.routes.routes import Routes
-from app.internal.routes import user, currency
+from app.internal.routes import currency
 
-__routes__ = Routes(routers=(user.router, currency.router))
+__routes__ = Routes(routers=(currency.router,))

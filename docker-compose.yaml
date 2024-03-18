@@ -15,7 +15,7 @@ services:
       - API_REDIS_HOST=redis
 
     ports:
-      - 8000:8000
+      - "8000:8000"
 
     command: [
       "uvicorn", "app:create_app",
@@ -28,7 +28,7 @@ services:
 
   redis:
     container_name: redis
-    build: 
+    build:
       context: .
       dockerfile: docker/redis/Dockerfile
 
@@ -37,4 +37,4 @@ services:
       - REDIS_PORT=6379
     
     ports:
-      - 6379:6379
+      - "6379:6379"

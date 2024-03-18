@@ -8,6 +8,6 @@ ENV PYTHONUNBUFFERED 1
 
 RUN pip install --upgrade pip
 
-RUN pip install fastapi uvicorn redis aiohttp fastapi_utils
-
 COPY . /usr/src/app/
+
+RUN pip install -r requirements.txt

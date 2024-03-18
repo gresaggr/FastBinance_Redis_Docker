@@ -1,10 +1,10 @@
 from pydantic import BaseModel
 from typing import List
 
-class Symbol(BaseModel):
 
+class Symbol(BaseModel):
     symbol: str
 
-class Symbols(BaseModel):
 
+class Symbols(BaseModel):
     symbols: List[Symbol]

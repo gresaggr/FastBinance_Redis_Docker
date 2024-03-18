@@ -5,6 +5,5 @@
 ![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)
 ![Docker](https://img.shields.io/badge/docker-%23316192.svg?style=for-the-badge&logo=docker&logoColor=white)
 
-##### You can learn more about this structure from this video
-
-[![Watch the video](https://img.youtube.com/vi/cD9yW2L72aA/0.jpg)](https://youtu.be/cD9yW2L72aA)
+Для запуска:
+`docker-compose up -d`
