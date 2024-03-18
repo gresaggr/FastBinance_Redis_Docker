@@ -3,5 +3,5 @@ uvicorn==0.28.0
 redis==5.0.3
 aiohttp==3.9.3
 fastapi_utils
-pydantic==2.6.4
+pydantic
 typing~=3.7.4.3
