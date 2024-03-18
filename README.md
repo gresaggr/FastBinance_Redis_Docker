@@ -5,5 +5,9 @@
 [![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)](https://redis.io/)
 [![Docker](https://img.shields.io/badge/docker-%23316192.svg?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
 
+Получение информации по цене валютной пары Binance
+
 Для запуска:
 `docker-compose up -d`
+
+[Swagger](http://127.0.0.1:8000/docs)
